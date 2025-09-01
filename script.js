@@ -1,7 +1,7 @@
 document.getElementById('start-button').addEventListener('click', function() {
     // Log the button click event
     console.log('Start button clicked.');
-    document.getElementById('game-info').innerText = 'Welcome to the game! The game is starting! Good luck!';
+    document.getElementById('game-info').innerText = 'Welcome to the game! The adventure begins now! Good luck!';
     initializeGameVariables();
 });
 
