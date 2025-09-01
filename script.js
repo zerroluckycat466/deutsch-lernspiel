@@ -1,3 +1,5 @@
+let score = 0;
+let level = 1;
 document.getElementById('start-button').addEventListener('click', function() {
     // Log the button click event
     console.log('Start button clicked.');
@@ -6,8 +8,5 @@ document.getElementById('start-button').addEventListener('click', function() {
 });
 
 function initializeGameVariables() {
-    // Initialize game variables here
-    let score = 0;
-    let level = 1;
     // Other game variables can be added here
 }
